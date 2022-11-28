@@ -2,7 +2,7 @@ apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
   name: hello
-  namespace: default
+  namespace: demo
 spec:
   concurrencyPolicy: Replace
   schedule: "*/1 * * * *"
